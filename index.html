@@ -9,21 +9,25 @@
       padding: 0;
       height: 100%;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #202123; /* fondo oscuro tipo ChatGPT */
+      background-color: #0b0c0f; /* fondo más oscuro tipo ChatGPT */
       display: flex;
       justify-content: center;
       align-items: center;
     }
     .chat-container {
-      width: 800px;
-      height: 600px;
-      border-radius: 12px;
+      width: 90%;
+      max-width: 800px;
+      height: 90%;
+      max-height: 700px;
+      border-radius: 16px;
       overflow: hidden;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+      background-color: #202123; /* contenedor ligeramente más claro */
+      box-shadow: 0 8px 30px rgba(0,0,0,0.7);
+      display: flex;
+      flex-direction: column;
     }
     iframe {
-      width: 100%;
-      height: 100%;
+      flex: 1;
       border: none;
     }
   </style>
